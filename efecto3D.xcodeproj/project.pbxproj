@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A92C87B19CD63C6002F3601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92C87A19CD63C6002F3601 /* main.m */; };
+		9A92C87E19CD63C6002F3601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92C87D19CD63C6002F3601 /* AppDelegate.m */; };
+		9A92C88019CD63C6002F3601 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A92C87F19CD63C6002F3601 /* art.scnassets */; };
+		9A92C88319CD63C6002F3601 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92C88219CD63C6002F3601 /* GameViewController.m */; };
+		9A92C88619CD63C6002F3601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A92C88419CD63C6002F3601 /* Main.storyboard */; };
+		9A92C88819CD63C6002F3601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A92C88719CD63C6002F3601 /* Images.xcassets */; };
+		9A92C88B19CD63C6002F3601 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A92C88919CD63C6002F3601 /* LaunchScreen.xib */; };
+		9A92C89719CD63C6002F3601 /* efecto3DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92C89619CD63C6002F3601 /* efecto3DTests.m */; };
+		9A92C8A519CD66C0002F3601 /* txori.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A92C8A419CD66C0002F3601 /* txori.png */; };
+		9A92C8A919CD6814002F3601 /* Baldosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A92C8A819CD6814002F3601 /* Baldosa.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A92C89119CD63C6002F3601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A92C86D19CD63C6002F3601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A92C87419CD63C6002F3601;
+			remoteInfo = efecto3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A92C87519CD63C6002F3601 /* efecto3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = efecto3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A92C87919CD63C6002F3601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A92C87A19CD63C6002F3601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A92C87C19CD63C6002F3601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A92C87D19CD63C6002F3601 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A92C87F19CD63C6002F3601 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		9A92C88119CD63C6002F3601 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9A92C88219CD63C6002F3601 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		9A92C88519CD63C6002F3601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A92C88719CD63C6002F3601 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A92C88A19CD63C6002F3601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A92C89019CD63C6002F3601 /* efecto3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = efecto3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A92C89519CD63C6002F3601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A92C89619CD63C6002F3601 /* efecto3DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = efecto3DTests.m; sourceTree = "<group>"; };
+		9A92C8A419CD66C0002F3601 /* txori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txori.png; sourceTree = "<group>"; };
+		9A92C8A819CD6814002F3601 /* Baldosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baldosa.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A92C87219CD63C6002F3601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A92C88D19CD63C6002F3601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A92C86C19CD63C6002F3601 = {
+			isa = PBXGroup;
+			children = (
+				9A92C8A819CD6814002F3601 /* Baldosa.png */,
+				9A92C8A419CD66C0002F3601 /* txori.png */,
+				9A92C87719CD63C6002F3601 /* efecto3D */,
+				9A92C89319CD63C6002F3601 /* efecto3DTests */,
+				9A92C87619CD63C6002F3601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A92C87619CD63C6002F3601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A92C87519CD63C6002F3601 /* efecto3D.app */,
+				9A92C89019CD63C6002F3601 /* efecto3DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A92C87719CD63C6002F3601 /* efecto3D */ = {
+			isa = PBXGroup;
+			children = (
+				9A92C87C19CD63C6002F3601 /* AppDelegate.h */,
+				9A92C87D19CD63C6002F3601 /* AppDelegate.m */,
+				9A92C87F19CD63C6002F3601 /* art.scnassets */,
+				9A92C88119CD63C6002F3601 /* GameViewController.h */,
+				9A92C88219CD63C6002F3601 /* GameViewController.m */,
+				9A92C88419CD63C6002F3601 /* Main.storyboard */,
+				9A92C88719CD63C6002F3601 /* Images.xcassets */,
+				9A92C88919CD63C6002F3601 /* LaunchScreen.xib */,
+				9A92C87819CD63C6002F3601 /* Supporting Files */,
+			);
+			path = efecto3D;
+			sourceTree = "<group>";
+		};
+		9A92C87819CD63C6002F3601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A92C87919CD63C6002F3601 /* Info.plist */,
+				9A92C87A19CD63C6002F3601 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A92C89319CD63C6002F3601 /* efecto3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A92C89619CD63C6002F3601 /* efecto3DTests.m */,
+				9A92C89419CD63C6002F3601 /* Supporting Files */,
+			);
+			path = efecto3DTests;
+			sourceTree = "<group>";
+		};
+		9A92C89419CD63C6002F3601 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A92C89519CD63C6002F3601 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A92C87419CD63C6002F3601 /* efecto3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A92C89A19CD63C6002F3601 /* Build configuration list for PBXNativeTarget "efecto3D" */;
+			buildPhases = (
+				9A92C87119CD63C6002F3601 /* Sources */,
+				9A92C87219CD63C6002F3601 /* Frameworks */,
+				9A92C87319CD63C6002F3601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = efecto3D;
+			productName = efecto3D;
+			productReference = 9A92C87519CD63C6002F3601 /* efecto3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A92C88F19CD63C6002F3601 /* efecto3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A92C89D19CD63C6002F3601 /* Build configuration list for PBXNativeTarget "efecto3DTests" */;
+			buildPhases = (
+				9A92C88C19CD63C6002F3601 /* Sources */,
+				9A92C88D19CD63C6002F3601 /* Frameworks */,
+				9A92C88E19CD63C6002F3601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A92C89219CD63C6002F3601 /* PBXTargetDependency */,
+			);
+			name = efecto3DTests;
+			productName = efecto3DTests;
+			productReference = 9A92C89019CD63C6002F3601 /* efecto3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A92C86D19CD63C6002F3601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Berganza;
+				TargetAttributes = {
+					9A92C87419CD63C6002F3601 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					9A92C88F19CD63C6002F3601 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 9A92C87419CD63C6002F3601;
+					};
+				};
+			};
+			buildConfigurationList = 9A92C87019CD63C6002F3601 /* Build configuration list for PBXProject "efecto3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A92C86C19CD63C6002F3601;
+			productRefGroup = 9A92C87619CD63C6002F3601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A92C87419CD63C6002F3601 /* efecto3D */,
+				9A92C88F19CD63C6002F3601 /* efecto3DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A92C87319CD63C6002F3601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A92C8A919CD6814002F3601 /* Baldosa.png in Resources */,
+				9A92C8A519CD66C0002F3601 /* txori.png in Resources */,
+				9A92C88B19CD63C6002F3601 /* LaunchScreen.xib in Resources */,
+				9A92C88819CD63C6002F3601 /* Images.xcassets in Resources */,
+				9A92C88019CD63C6002F3601 /* art.scnassets in Resources */,
+				9A92C88619CD63C6002F3601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A92C88E19CD63C6002F3601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A92C87119CD63C6002F3601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A92C87E19CD63C6002F3601 /* AppDelegate.m in Sources */,
+				9A92C88319CD63C6002F3601 /* GameViewController.m in Sources */,
+				9A92C87B19CD63C6002F3601 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A92C88C19CD63C6002F3601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A92C89719CD63C6002F3601 /* efecto3DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A92C89219CD63C6002F3601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A92C87419CD63C6002F3601 /* efecto3D */;
+			targetProxy = 9A92C89119CD63C6002F3601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A92C88419CD63C6002F3601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A92C88519CD63C6002F3601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A92C88919CD63C6002F3601 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A92C88A19CD63C6002F3601 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A92C89819CD63C6002F3601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A92C89919CD63C6002F3601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A92C89B19CD63C6002F3601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = efecto3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A92C89C19CD63C6002F3601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = efecto3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A92C89E19CD63C6002F3601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = efecto3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/efecto3D.app/efecto3D";
+			};
+			name = Debug;
+		};
+		9A92C89F19CD63C6002F3601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = efecto3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/efecto3D.app/efecto3D";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A92C87019CD63C6002F3601 /* Build configuration list for PBXProject "efecto3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A92C89819CD63C6002F3601 /* Debug */,
+				9A92C89919CD63C6002F3601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A92C89A19CD63C6002F3601 /* Build configuration list for PBXNativeTarget "efecto3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A92C89B19CD63C6002F3601 /* Debug */,
+				9A92C89C19CD63C6002F3601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A92C89D19CD63C6002F3601 /* Build configuration list for PBXNativeTarget "efecto3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A92C89E19CD63C6002F3601 /* Debug */,
+				9A92C89F19CD63C6002F3601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A92C86D19CD63C6002F3601 /* Project object */;
+}
